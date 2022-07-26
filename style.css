@@ -49,6 +49,31 @@
 }
 .navbar ul li :hover::after{
     width: 100%;
-    
+
 
 }
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(227, 17, 52);
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 70px;
+text-transform: uppercase;
+}
+.content p{
+  margin: 20px;
+  line-height: 25px;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px
+}
+.button{
+    cursor: pointer;
+}
+
+
